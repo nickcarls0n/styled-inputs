@@ -1,8 +1,18 @@
 import React from "react";
 import "./App.css";
+import Range from "./components/Range";
 
 function App() {
-  return <p>Cleaned up React App</p>;
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col">
+          <h1>Range Input</h1>
+          <Range />
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default App;
